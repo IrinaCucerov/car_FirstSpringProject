@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:test
+  jpa:
+    show-sql: true
+    defer-datasource-initialization: true
+  h2:
+    console:
+      enabled: true
+
+
+#spring:
+##  database: db:newCarTab.xml
+#  datasource:
+#    db: newCarTab.xml
+#    url: jdbc:h2:mem:test
+#  jpa:
+#    showSql: true
+#    defer-datasource-initialization: true
+#  h2:
+#    console:
+#      enabled: true
